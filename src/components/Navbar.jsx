@@ -68,8 +68,9 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden md:block">
             <a
-              href="/resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1v0aSDFA253M3WvbMCfiyDEU6Vk5BuUG_/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               id="navbar-resume-btn"
               className="btn-primary text-sm py-2 px-5"
             >
@@ -107,7 +108,12 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="border-t border-white/[0.06] mt-2 pt-3">
-              <a href="/resume.pdf" download className="btn-primary w-full justify-center text-sm">
+              <a
+                href="https://drive.google.com/file/d/1v0aSDFA253M3WvbMCfiyDEU6Vk5BuUG_/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary w-full justify-center text-sm"
+              >
                 Download Resume
               </a>
             </div>

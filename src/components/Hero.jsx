@@ -88,8 +88,14 @@ export default function Hero() {
                   <HiArrowDown className="w-4 h-4" />
                 </button>
               </Link>
-              <a href="/resume.pdf" download id="hero-download-resume-btn" className="btn-outline">
-                Download Resume
+              <a
+                href="https://drive.google.com/file/d/1v0aSDFA253M3WvbMCfiyDEU6Vk5BuUG_/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="hero-download-resume-btn"
+                className="btn-outline"
+              >
+                Download CV
                 <HiDownload className="w-4 h-4" />
               </a>
             </div>
