@@ -2,12 +2,14 @@ import { useEffect, useRef, useState } from 'react'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import { HiTag } from 'react-icons/hi'
 
+const BASE = import.meta.env.BASE_URL
+
 const PROJECTS = [
   {
     id:          'todo-app',
     title:       'Todo App',
     description: 'A clean, minimal task manager built with React. Add tasks, mark them complete, filter by All / Active / Completed, and track remaining tasks — all with a sleek dark UI.',
-    image:       '/project_todo.png',
+    image:       `${BASE}project_todo.png`,
     tags:        ['React', 'Hooks', 'localStorage', 'CSS'],
     github:      'https://github.com/KENADAM01/todo-app',
     demo:        'https://KENADAM01.github.io/todo-app/',
@@ -17,7 +19,7 @@ const PROJECTS = [
     id:          'weather-app',
     title:       'WeatherPulse',
     description: 'Real-time global weather dashboard powered by OpenWeatherMap API. Search any city, use auto-location, toggle °C/°F, and view hourly + 5-day forecasts with humidity, wind, pressure & more.',
-    image:       '/project_weather.png',
+    image:       `${BASE}project_weather.png`,
     tags:        ['React', 'OpenWeatherMap API', 'Vite', 'Responsive'],
     github:      'https://github.com/KENADAM01/weather-app',
     demo:        'https://KENADAM01.github.io/weather-app/',
@@ -27,7 +29,7 @@ const PROJECTS = [
     id:          'movie-app',
     title:       'Moviebite',
     description: 'A movie discovery app powered by the TMDB API. Browse Popular, Top Rated & Upcoming films, search in real-time, and explore movie posters, star ratings, plot summaries, and release dates.',
-    image:       '/project_movie.png',
+    image:       `${BASE}project_movie.png`,
     tags:        ['React', 'TMDB API', 'React Router', 'Tailwind CSS'],
     github:      'https://github.com/KENADAM01/movie-app',
     demo:        'https://kenadam01.github.io/movie-app',
